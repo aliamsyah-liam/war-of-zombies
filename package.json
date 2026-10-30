@@ -1,0 +1,16 @@
+{
+  "name": "war-of-zombies",
+  "version": "1.0.0",
+  "description": "WAR OF ZOMBIES - zombie survival open world Kalimantan",
+  "private": true,
+  "scripts": {
+    "prepare-web": "node scripts/prepare.js",
+    "sync": "node scripts/prepare.js && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "three": "0.128.0"
+  }
+}

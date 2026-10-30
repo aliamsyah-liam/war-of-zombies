@@ -1,0 +1,7 @@
+{
+  "appId": "com.warofzombies.game",
+  "appName": "WAR OF ZOMBIES",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": { "backgroundColor": "#0b1411" }
+}
